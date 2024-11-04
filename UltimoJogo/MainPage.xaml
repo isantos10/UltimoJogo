@@ -15,25 +15,25 @@
         </HorizontalStackLayout>
 
 <HorizontalStackLayout x:Name="HSLayer2">
-      <Image Source="chao2.png"
+      <Image Source="cha.png"
              HorizontalOptions="End"
              VerticalOptions="End"/>
-      <Image Source="chao2.png"
+      <Image Source="cha.png"
              HorizontalOptions="End"
              VerticalOptions="End"/>
-      <Image Source="chao2.png"
+      <Image Source="cha.png"
              HorizontalOptions="End"
              VerticalOptions="End"/>
     </HorizontalStackLayout>
 
     <HorizontalStackLayout x:Name="HSLayer3">
-      <Image Source="grama.png"
+      <Image Source="chao.png"
              HorizontalOptions="End"
              VerticalOptions="End"/>
-      <Image Source="grama.png"
+      <Image Source="chao.png"
              HorizontalOptions="End"
              VerticalOptions="End"/>
-      <Image Source="grama.png"
+      <Image Source="chao.png"
              HorizontalOptions="End"
              VerticalOptions="End"/>
     </HorizontalStackLayout>
