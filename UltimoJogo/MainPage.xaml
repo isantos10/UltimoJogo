@@ -7,11 +7,11 @@
     <Grid>
         <HorizontalStackLayout x:Name="HSLayer1">
             <Image Aspect="Fill"
-                   Source="paisagens.png"/>
+                   Source="fundo.png"/>
             <Image Aspect="Fill"
-                   Source="paisagens.png"/>
+                   Source="fundo.png"/>
             <Image Aspect="Fill"
-                   Source="paisagens.png"/>
+                   Source="fundo.png"/>
         </HorizontalStackLayout>
 
 <HorizontalStackLayout x:Name="HSLayer2">
@@ -27,13 +27,13 @@
     </HorizontalStackLayout>
 
     <HorizontalStackLayout x:Name="HSLayer3">
-      <Image Source="chao.png"
+      <Image Source="chao.jpg"
              HorizontalOptions="End"
              VerticalOptions="End"/>
-      <Image Source="chao.png"
+      <Image Source="chao.jpg"
              HorizontalOptions="End"
              VerticalOptions="End"/>
-      <Image Source="chao.png"
+      <Image Source="chao.jpg"
              HorizontalOptions="End"
              VerticalOptions="End"/>
     </HorizontalStackLayout>
