@@ -1,42 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="UltimoJogo.MainPage"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Shell.NavBarIsVisible="False">
-    <Grid>
-        <HorizontalStackLayout x:Name="HSLayer1">
-            <Image Aspect="Fill"
-                   Source="fundo.png"/>
-            <Image Aspect="Fill"
-                   Source="fundo.png"/>
-            <Image Aspect="Fill"
-                   Source="fundo.png"/>
-        </HorizontalStackLayout>
+       x:Class="UltimoJogo.MainPage"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       Shell.NavBarIsVisible="False">
+       <Grid>
+              <HorizontalStackLayout x:Name="HSLayer1">
+                     <Image Aspect="Fill"
+                            Source="fundo.png"/>
+                     <Image Aspect="Fill"
+                            Source="fundo.png"/>
+                     <Image Aspect="Fill"
+                            Source="fundo.png"/>
+              </HorizontalStackLayout>
 
-<HorizontalStackLayout x:Name="HSLayer2">
-      <Image Source="cha.png"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="cha.png"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="cha.png"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-    </HorizontalStackLayout>
+              <HorizontalStackLayout x:Name="HSLayer2">
+                     <Image Source="chao.png"
+                            HorizontalOptions="End"
+                            VerticalOptions="End"/>
+                     <Image Source="chao.png"
+                            HorizontalOptions="End"
+                            VerticalOptions="End"/>
+                     <Image Source="chao.png"
+                            HorizontalOptions="End"
+                            VerticalOptions="End"/>
+              </HorizontalStackLayout>
 
-    <HorizontalStackLayout x:Name="HSLayer3">
-      <Image Source="chao.jpg"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="chao.jpg"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="chao.jpg"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-    </HorizontalStackLayout>
+              <HorizontalStackLayout x:Name="HSLayer3">
+                     <Image Source="chao.jpg"
+                            HorizontalOptions="End"
+                            VerticalOptions="End"
+                            HeightRequest="100"
+                            WidthRequest="200"/>
+                     <Image Source="chao.jpg"
+                            HorizontalOptions="End"
+                            VerticalOptions="End"
+                            HeightRequest="100"
+                            WidthRequest="200"/>
+                     <Image Source="chao.jpg"
+                            HorizontalOptions="End"
+                            VerticalOptions="End"
+                            HeightRequest="100"
+                            WidthRequest="200"/>
+              </HorizontalStackLayout>
+
+              <Image Source="img01.png"
+                     x:Name="imgplayer"
+                     HorizontalOptions="Start"
+                     Aspect="Fill"
+                     VerticalOptions="End"
+                     HeightRequest="100"
+                     WidthRequest="200"
+                     Margin="0,0,0,100"/>
 
        </Grid>
 
