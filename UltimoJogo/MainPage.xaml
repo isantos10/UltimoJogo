@@ -4,7 +4,14 @@
        xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        Shell.NavBarIsVisible="False">
-       <Grid>
+
+          <Grid>
+
+              <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnGridClicked"/>
+              </Grid.GestureRecognizers>
+
+       
               <HorizontalStackLayout x:Name="HSLayer1">
                      <Image Aspect="Fill"
                             Source="fundo.png"/>

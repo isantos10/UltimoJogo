@@ -1,10 +1,11 @@
 using UltimoJogo;
+
 public delegate void Callback();
 public class Player : Animacao
 {
     public Player(Image a) : base(a)
     {
-        for (int i = 1; i <= 5; ++i)
+        for (int i = 1; i <= 24; ++i)
             Animacao01.Add($"img{i.ToString("D2")}.png");
         for (int i = 1; i <= 2; ++i)
             Animacao01.Add($"playerdead{i.ToString("D2")}.png");
@@ -18,9 +19,17 @@ public class Player : Animacao
         Play();
 
     }
-     public void Die()
-    {
-        loop = false;
-        SetAnimacaoAtiva(2);
-    }
+
+      public void MoveY (int s)
+	{
+		compImage.TranslationY += s;	
+	}
+	public double GetY ()
+	{
+		return compImage.TranslationY;
+	}
+	public void SetY (double a)
+	{
+		compImage.TranslationY = a;
+	}
 }
