@@ -10,8 +10,9 @@ public class Animacao
     protected int AnimacaoAtiva = 1;
     bool parado = true;
     int frameAtual = 1;
-    protected Image compImage;
-    public Animacao(Image a)
+    protected  CachedImageView compImage;
+    public Animacao( CachedImageView a)
+    
     {
         compImage = a;
     }
