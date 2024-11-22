@@ -25,7 +25,7 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-		player = new Player(imgplayer);
+		player = new Player(imgpPlayer);
 		player.Run();
 	}
 

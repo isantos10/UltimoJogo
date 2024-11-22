@@ -1,5 +1,5 @@
 namespace UltimoJogo;
-
+using FFImageLoading.Maui;
 public class Animacao
 {
     protected List<String> Animacao01 = new List<String>();

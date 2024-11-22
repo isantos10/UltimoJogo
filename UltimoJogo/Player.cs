@@ -1,5 +1,5 @@
 using UltimoJogo;
-
+using FFImageLoading.Maui;
 public delegate void Callback();
 public class Player : Animacao
 {
